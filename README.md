@@ -10,7 +10,7 @@ O projeto conta com um único sensor, o GPS, que auxilia a listar as coordenadas
 ## 💻 App Funcionando
 
 ## 👨‍💻 Autor
-Giovana Lays Coelho Fonseca
-Letícia Roberta Oliveira Souto
-Rafael Teixeira
-Victória Marques
+Giovana Lays Coelho Fonseca <br>
+Letícia Roberta Oliveira Souto <br>
+Rafael Teixeira <br>
+Victória Marques <br>
