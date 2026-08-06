@@ -1,4 +1,4 @@
-# Registrador de Trajeto
+# 🏃‍♀️‍➡️ Registrador de Trajeto
 Este é um projeto desenvolvido para uma atividade prática para a aula de Programação para Dispositivos Móveis, com o intuito de testar a capacidade da equipe em criar um app  que rastreia e desenha o caminho percorrido pelo usuário em um mapa. 
 O projeto conta com uma estilização para deixar o ambiente mais agradável para o usuário.
 
