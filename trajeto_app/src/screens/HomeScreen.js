@@ -54,7 +54,7 @@ export default function HomeScreen() {
         Registrador de Trajeto
       </Text>
 
-      <Buttons
+      <Button
         onStart={iniciar}
         onStop={parar}
       />
