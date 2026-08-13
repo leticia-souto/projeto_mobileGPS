@@ -1,22 +1,24 @@
-import * as Location from "expo-location";
+import * as Location from 'expo-location';
 
 export async function pedirPermissao() {
   const { status } =
     await Location.requestForegroundPermissionsAsync();
 
-  if (status !== "granted") {
-    return false;
-  }
-
-  return true;
+  return status === 'granted';
 }
 
 export async function iniciarRastreamento(callback) {
   const permitido = await pedirPermissao();
 
   if (!permitido) {
-    throw new Error("Permissão de localização negada.");
+    throw new Error('Permissão de localização negada.');
   }
+
+  const localizacaoAtual = await Location.getCurrentPositionAsync({
+    accuracy: Location.Accuracy.High,
+  });
+
+  callback(localizacaoAtual.coords);
 
   const subscription = await Location.watchPositionAsync(
     {
