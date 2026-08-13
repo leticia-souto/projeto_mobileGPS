@@ -6,7 +6,7 @@ import {
   StyleSheet,
 } from "react-native";
 
-import Buttons from "../components/Buttons";
+import Button from '../components/Button';
 import MapComponent from "../components/MapComponent";
 import CoordinateList from "../components/CoordinateList";
 
