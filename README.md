@@ -7,7 +7,14 @@ O projeto conta com um único sensor, o GPS, que auxilia a listar as coordenadas
 
 ## 🚀 Como rodar o projeto
 
+```bash
+npx expo start
+```
+
 ## 💻 App Funcionando
+
+<img width="380" height="806" alt="aplicativo funcionando" src="https://github.com/user-attachments/assets/72942a68-2867-452d-914b-2a040dbafeaa" />
+
 
 ## 👨‍💻 Autor
 Giovana Lays Coelho Fonseca <br>
